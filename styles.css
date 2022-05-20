@@ -1,0 +1,9 @@
+:root {
+    --main-color: #2196F3;
+    --black-color: #212121;
+}
+
+/* Logo */
+.logo-blue {
+    color: var(--main-color);
+}
