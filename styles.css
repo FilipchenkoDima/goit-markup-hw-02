@@ -60,8 +60,8 @@ header {
 
 
 
-/* Main */
-main {
+/* Body */
+body {
     font-family: 'Roboto', sans-serif;
 }
 
@@ -88,6 +88,9 @@ main {
 
     color: #FFFFFF;
     background-color: var(--main-color);
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
+    border-radius: 4px;
+
     cursor: pointer;
 }
 
@@ -216,6 +219,8 @@ footer {
     
     color: var(--black-color);
     background-color: #F5F4FA;
+
+    border-radius: 4px;
 
     cursor: pointer;
 }
