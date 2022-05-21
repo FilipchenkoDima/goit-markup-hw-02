@@ -199,10 +199,14 @@ footer {
     font-size: 14px;
     line-height: 1.71;
         
-    color: #FFFFFF;
+    color:rgba(255, 255, 255, 0.6);
 }
 
 /* Кнопки фільтрації */
+
+.section-portfolio {
+    background-color: #E5E5E5;
+}
 
 .portfolio-button {
     font-weight: 500;
@@ -220,4 +224,22 @@ footer {
 .portfolio-button:focus {
     color: #FFFFFF;
     background-color: var(--main-color);
+}
+
+/* Приклади */
+
+.example-title {
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 2;
+
+    color: var(--black-color);
+}
+
+.example-text {
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 1.9;
+
+    color: #757575;
 }
