@@ -3,7 +3,221 @@
     --black-color: #212121;
 }
 
-/* Logo */
-.logo-blue {
+ul {
+    list-style: none;
+}
+
+/* Посилання */
+
+.link {
+    text-decoration: none;
+}
+
+.link:hover,
+.link:focus {
     color: var(--main-color);
+}
+
+/* Хедер */
+
+header {
+    background-color: #FFFFFF;
+}
+
+.link-nav {
+    color: var(--black-color);
+    font-family: 'Roboto', sans-serif;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 1.14;
+}
+
+.link-contact {
+    font-family: 'Roboto';
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 1.14;
+
+    color: #757575;
+}
+
+
+/* Logo */
+.logo-color {
+    color: var(--main-color);
+}
+
+.logo {
+    font-family: 'Raleway', sans-serif;
+    font-weight: 700;
+    font-size: 26px;
+    line-height: 1.2;
+
+    color: #000000;
+
+    text-decoration: none;
+}
+
+
+
+/* Main */
+main {
+    font-family: 'Roboto', sans-serif;
+}
+
+/* Hero */
+.hero {
+    background-color: #2F303A;
+}
+
+.hero-title {
+    font-weight: 900;
+    font-size: 44px;
+    line-height: 1.36;
+
+    text-align: center;
+    text-transform: uppercase;
+
+    color: #FFFFFF;
+}
+
+.button-service {
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 1.9;
+
+    color: #FFFFFF;
+    background-color: var(--main-color);
+    cursor: pointer;
+}
+
+/* Переваги */
+
+.advantage {
+    background-color: #E5E5E5;
+}
+
+.advantage-title {
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 1.14;
+    text-transform: uppercase;
+    
+    color: var(--black-color);
+}
+
+.advantage-text {
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 1.71;
+    
+    color: #757575;
+}
+
+/* Чим займаємось */
+
+.examples {
+    background-color: #E5E5E5;
+}
+
+.examples-title {
+    font-weight: 700;
+    font-size: 36px;
+    line-height: 1.2;
+
+    text-align: center;
+
+    color: #212121;
+}
+
+/* Команда */
+
+.team {
+    background-color: #F5F4FA;
+}
+
+.team-title {
+    font-weight: 700;
+    font-size: 36px;
+    line-height: 1.2;
+    text-align: center;
+    
+    color: var(--black-color);
+}
+
+.team-list {
+    background: #FFFFFF;
+}
+
+.worker-title {
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 1.2;
+    text-align: center;
+
+    color: var(--black-color);
+}
+
+.team-text {
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 1.2;
+    text-align: center;
+    
+    color: #757575;
+}
+
+/* Футер */
+
+footer {
+    background-color: #2F303A;
+}
+
+.logo-footer {
+    font-family: 'Raleway', sans-serif;
+    font-weight: 700;
+    font-size: 26px;
+    line-height: 1.2;
+    
+    color: #FFFFFF;
+
+    text-decoration: none;
+}
+
+.address-map {
+    font-family: 'Roboto', sans-serif;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 1.71;
+        
+    color:#FFFFFF;
+}
+
+.address-contact {
+    font-family: 'Roboto';
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 1.71;
+        
+    color: #FFFFFF;
+}
+
+/* Кнопки фільтрації */
+
+.portfolio-button {
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 1.6;
+    text-align: center;
+    
+    color: var(--black-color);
+    background-color: #F5F4FA;
+
+    cursor: pointer;
+}
+
+.portfolio-button:hover,
+.portfolio-button:focus {
+    color: #FFFFFF;
+    background-color: var(--main-color);
 }
