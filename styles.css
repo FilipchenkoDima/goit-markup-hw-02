@@ -1,10 +1,27 @@
 :root {
     --main-color: #2196F3;
     --black-color: #212121;
+    --main-white: #FFFFFF;
+    --text-gray: #757575;
+    --background-main: #E5E5E5;
+    --background-secondary: #2F303A;
+}
+
+nav .link.current {
+    color: var(--main-color);
 }
 
 ul {
     list-style: none;
+}
+
+/* Body */
+
+body {
+    font-family: 'Roboto', sans-serif;
+    letter-spacing: 0.03em;
+    background-color: var(--background-main);
+    color: var(--black-color);
 }
 
 /* Посилання */
@@ -21,7 +38,8 @@ ul {
 /* Хедер */
 
 header {
-    background-color: #FFFFFF;
+    background-color: var(--main-white);
+    letter-spacing: 0.02em;
 }
 
 .link-nav {
@@ -38,7 +56,7 @@ header {
     font-size: 14px;
     line-height: 1.14;
 
-    color: #757575;
+    color: var(--text-gray);
 }
 
 
@@ -52,22 +70,18 @@ header {
     font-weight: 700;
     font-size: 26px;
     line-height: 1.2;
+    letter-spacing: 0.03em;
 
     color: #000000;
 
     text-decoration: none;
 }
 
-
-
-/* Body */
-body {
-    font-family: 'Roboto', sans-serif;
-}
-
 /* Hero */
+
 .hero {
-    background-color: #2F303A;
+    background-color: var(--background-secondary);
+    letter-spacing: 0.06em;
 }
 
 .hero-title {
@@ -78,15 +92,16 @@ body {
     text-align: center;
     text-transform: uppercase;
 
-    color: #FFFFFF;
+    color: var(--main-white);
 }
 
 .button-service {
     font-weight: 700;
     font-size: 16px;
     line-height: 1.9;
+    letter-spacing: 0.06em;
 
-    color: #FFFFFF;
+    color: var(--main-white);
     background-color: var(--main-color);
     box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
     border-radius: 4px;
@@ -97,7 +112,7 @@ body {
 /* Переваги */
 
 .advantage {
-    background-color: #E5E5E5;
+    background-color: var(--background-main);
 }
 
 .advantage-title {
@@ -105,22 +120,19 @@ body {
     font-size: 14px;
     line-height: 1.14;
     text-transform: uppercase;
-    
-    color: var(--black-color);
 }
 
 .advantage-text {
-    font-weight: 400;
     font-size: 14px;
     line-height: 1.71;
     
-    color: #757575;
+    color: var(--text-gray);
 }
 
 /* Чим займаємось */
 
 .examples {
-    background-color: #E5E5E5;
+    background-color: var(--background-main);
 }
 
 .examples-title {
@@ -129,8 +141,6 @@ body {
     line-height: 1.2;
 
     text-align: center;
-
-    color: #212121;
 }
 
 /* Команда */
@@ -144,12 +154,10 @@ body {
     font-size: 36px;
     line-height: 1.2;
     text-align: center;
-    
-    color: var(--black-color);
 }
 
 .team-list {
-    background: #FFFFFF;
+    background: var(--main-white);
 }
 
 .worker-title {
@@ -157,23 +165,20 @@ body {
     font-size: 16px;
     line-height: 1.2;
     text-align: center;
-
-    color: var(--black-color);
 }
 
 .team-text {
-    font-weight: 400;
     font-size: 16px;
     line-height: 1.2;
     text-align: center;
     
-    color: #757575;
+    color: var(--text-gray);
 }
 
 /* Футер */
 
 footer {
-    background-color: #2F303A;
+    background-color: var(--background-secondary);
 }
 
 .logo-footer {
@@ -182,25 +187,25 @@ footer {
     font-size: 26px;
     line-height: 1.2;
     
-    color: #FFFFFF;
+    color: var(--main-white);
 
     text-decoration: none;
 }
 
 .address-map {
     font-family: 'Roboto', sans-serif;
-    font-weight: 400;
     font-size: 14px;
     line-height: 1.71;
+    font-style: normal;
         
-    color:#FFFFFF;
+    color: var(--main-white);
 }
 
 .address-contact {
     font-family: 'Roboto';
-    font-weight: 400;
     font-size: 14px;
     line-height: 1.71;
+    font-style: normal;
         
     color:rgba(255, 255, 255, 0.6);
 }
@@ -208,7 +213,7 @@ footer {
 /* Кнопки фільтрації */
 
 .section-portfolio {
-    background-color: #E5E5E5;
+    background-color: var(--background-main);
 }
 
 .portfolio-button {
@@ -227,7 +232,7 @@ footer {
 
 .portfolio-button:hover,
 .portfolio-button:focus {
-    color: #FFFFFF;
+    color: var(--main-white);
     background-color: var(--main-color);
 }
 
@@ -237,14 +242,12 @@ footer {
     font-weight: 700;
     font-size: 18px;
     line-height: 2;
-
-    color: var(--black-color);
+    letter-spacing: 0.06em;
 }
 
 .example-text {
-    font-weight: 400;
     font-size: 16px;
     line-height: 1.9;
 
-    color: #757575;
+    color: var(--text-gray);
 }
